@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/MessagingService.Api/bin/Debug/net6.0/MessagingService.Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/MessagingService.Api",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/MessagingService.Test/bin/Debug/net6.0/MessagingService.Test.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/MessagingService.Test",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

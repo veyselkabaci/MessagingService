@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{DC44B889-F9D3-487D-8FF4-CA1D0DCBDFE8}") = "MessagingService.Api", "src\MessagingService.Api\MessagingService.Api.csproj", "{3E342FD9-894E-4A04-9F14-AA2679D4A535}"
+EndProject
+Project("{C32C4406-6569-433C-8181-F1D553892A85}") = "MessagingService.Test", "src\MessagingService.Test\MessagingService.Test.csproj", "{CDBF4327-9DF0-4673-8185-2366216D28C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E342FD9-894E-4A04-9F14-AA2679D4A535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E342FD9-894E-4A04-9F14-AA2679D4A535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E342FD9-894E-4A04-9F14-AA2679D4A535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E342FD9-894E-4A04-9F14-AA2679D4A535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBF4327-9DF0-4673-8185-2366216D28C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBF4327-9DF0-4673-8185-2366216D28C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBF4327-9DF0-4673-8185-2366216D28C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBF4327-9DF0-4673-8185-2366216D28C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
